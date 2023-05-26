@@ -1,63 +1,94 @@
-body {
-	padding-top: 2%;
-	padding-left: 5%;
-	padding-bottom: 3%;
-	padding-right: 40%;
+@media (min-width: 0px) {
+	body {
+		padding-top: 2%;
+		padding-left: 5%;
+		padding-bottom: 3%;
+		padding-right: 2%;
+		font-family: Roboto, Verdana, sans-serif;
+		font-size: calc(12px + 1vw);
+	}
+	h1 {
+		font-size: calc(16px + 1.33vw);
+	}
+	h3 {
+		font-size: calc(13.3px + 1.11vw);
+	}
+	h4 {
+		font-size: calc(12.7px + 1.06vw);
+	}
+	a + a {
+		margin-top: calc(3.3px + 0.28vw);
+	}
+	p {
+		text-align: justify;
+	}	
+	.navbar {
+		width: calc(67px + 5.56vw);
+		position: fixed;
+		text-align: right;
+		font-size: calc(10.67px + 0.89vw);
+	}
+	.navlink {
+		display: inline-block;
+		width: 100%;	
+		text-decoration: none;	
+	}
+	.navlink:link {
+		text-decoration: none;
+		color: inherit;
+	}
+	.navlink:visited {
+		text-decoration: none;
+		color: inherit;	
+	}
+	.navlink:hover {
+		background-color: #ed857b;
+		text-decoration: none; 
+	}
+	.navlink:active {
+		text-decoration: none; 
+	}
+	.navhead {
+		font-weight: bold;
+		text-align: right;
+	}
+	.main {
+		margin-left: calc(106.67px + 8.89vw);
+	}
 }
-h1 {
-	font-family: Roboto, Verdana, sans-serif;
-	font-size: 24px;
+@media (min-width: 613px) {
+	body {
+		padding-top: 2%;
+		padding-left: 5%;
+		padding-bottom: 3%;
+		padding-right: calc(98vw - 600px);
+		font-family: Roboto, Verdana, sans-serif;
+		font-size: 18px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 19px;
+	}
+	a + a {
+		margin-top: 5px;
+	}
+	.navbar {
+		font-size: 16px;
+	}
 }
-h3 {
-	font-family: Roboto, Verdana, sans-serif;
-	font-size: 20px;
-}
-li {
-	font-family: Roboto, Verdana, sans-serif;
-	font-size: 18px;
-}
-a + a {
-	margin-top: 5px;
-}
-p {
-	font-family: Roboto, Verdana, sans-serif;
-	font-size: 18px;
-	text-align: justify;
-}	
-.navbar {
-	width: 100px;
-	position: fixed;
-	text-align: right;
-}
-.navlink {
-	font-family: Roboto, Verdana, sans-serif;
-	font-size: 16px;
-	display: inline-block;
-	width: 100%;	
-	text-decoration: none;	
-}
-.navlink:link {
-	text-decoration: none;
-	color: inherit;
-}
-.navlink:visited {
-	text-decoration: none;
-	color: inherit;	
-}
-.navlink:hover {
-	background-color: #ed857b;
-	text-decoration: none; 
-}
-.navlink:active {
-	text-decoration: none; 
-}
-.navhead {
-	font-family: Roboto, Verdana, sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	text-align: right;
-}
-.main {
-	margin-left: 160px;
+@media (min-width: 1000px) {
+	body {
+		padding-top: 2%;
+		padding-left: 5%;
+		padding-bottom: 3%;
+		padding-right: 40vw;
+		font-family: Roboto, Verdana, sans-serif;
+		font-size: 18px;
+	}
 }
 
